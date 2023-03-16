@@ -775,6 +775,7 @@ h3.my-profession {
     top: 30%;
     width: 310px;
     height: 390px;
+    margin-left: 50px;
   }
   .portfolio .portfolio-item .model-inner img {
     height: 30%;
