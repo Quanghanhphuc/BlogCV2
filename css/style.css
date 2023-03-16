@@ -771,4 +771,12 @@ h3.my-profession {
     flex: 0 0 100%;
     min-width: 100%;
   }
+  .portfolio .portfolio-item .model-inner {
+    top: 30%;
+    width: 400px;
+    height: 350px;
+  }
+  .about .about-content .personal-info .info-item p span {
+    overflow: hidden;
+  }
 }
