@@ -466,7 +466,7 @@ h3.my-profession {
   position: absolute;
   left: 0;
   top: 0;
-  height: 15%;
+  height: 15px;
   width: 15px;
   border-radius: 50%;
   background-color: var(--skin-color);
@@ -778,5 +778,12 @@ h3.my-profession {
   }
   .about .about-content .personal-info .info-item p span {
     overflow: hidden;
+  }
+}
+@media (max-width: 390px) {
+  .portfolio .portfolio-item .model-inner {
+    top: 30%;
+    width: 355px;
+    height: 360px;
   }
 }
