@@ -39,7 +39,9 @@ ul {
   color: var(--text-color-100);
   font-size: 18px;
 }
-
+.display {
+  display: contents;
+}
 .section {
   background: var(--gb-black-900);
   min-height: 100vh;
