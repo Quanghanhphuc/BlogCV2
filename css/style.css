@@ -590,11 +590,11 @@ h3.my-profession {
   width: 100%;
   background: rgba(0, 0, 0, 0.6);
   position: fixed;
+  margin-left: -40px;
 }
 .portfolio .portfolio-item .model-inner {
   background: white;
-  width: 550px;
-  height: 300px;
+  width: 860px;
   top: 25%;
   left: -10%;
   position: relative;
@@ -615,7 +615,6 @@ h3.my-profession {
 }
 .portfolio .portfolio-item .model-inner img {
   width: 50%;
-  height: 100%;
 }
 .portfolio .portfolio-item .model-inner .model-header .fontwei {
   font-weight: 500;

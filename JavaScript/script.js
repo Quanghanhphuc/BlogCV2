@@ -86,6 +86,8 @@ const model = document.querySelector(".model");
 const iconClose = document.querySelector(".model-header i");
 const btnClose = document.querySelector(".footer button");
 
-btnOpen.addEventListener("click", function () {
+function click() {
   model.classList.toggle("hidden");
-});
+}
+
+btnOpen.addEventListener("click", click);
